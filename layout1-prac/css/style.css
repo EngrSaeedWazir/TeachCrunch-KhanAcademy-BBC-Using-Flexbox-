@@ -1,0 +1,53 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+body {
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+/* header,
+main,
+section {
+  float: left;
+  width: 10%;
+}
+main {
+  width: 60%;
+}
+section {
+  width: 20px;
+}
+aside {
+  float: right;
+} */
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+/* Use Flexbox */
+
+.container {
+  display: flex;
+}
